@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chat Box</title>
+       <script src="/socket.io/socket.io.js"></script>
+        <link href="/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <section class="chatbox">
+         <ul id="messages"></ul>
+    <form id="message-form">
+        <input type="text" id="message-input" />
+        <input type="submit" value="Send" id="message-send" />
+    </form>
+    </section>
+    <script src="/chat.js"></script>
+    </body>
+</html>
