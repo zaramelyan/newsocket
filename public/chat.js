@@ -1,5 +1,6 @@
+
 const port = process.env.PORT || 4000;
-var socket = io.connect(`http://localhost:${port}`);
+var socket = io.connect(`${port}`);
 
         const form = document.getElementById("message-form");
         form.addEventListener("submit", function (event) {
